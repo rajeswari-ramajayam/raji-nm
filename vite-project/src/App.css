@@ -1,0 +1,49 @@
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #1e3a8a;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form button {
+  background: blue;
+}
+
+.card {
+  border: 1px solid gray;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.approve {
+  background: green;
+  margin-right: 10px;
+}
+
+.reject {
+  background: red;
+}
